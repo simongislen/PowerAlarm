@@ -18,6 +18,8 @@
 		D5EFDF9C1891343A001D3F4A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EFDF7B1891343A001D3F4A /* Cocoa.framework */; };
 		D5EFDFA41891343A001D3F4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5EFDFA21891343A001D3F4A /* InfoPlist.strings */; };
 		D5EFDFA61891343A001D3F4A /* PowerAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EFDFA51891343A001D3F4A /* PowerAlarmTests.m */; };
+		D5EFDFB01891357C001D3F4A /* Alarm Clock.caf in Resources */ = {isa = PBXBuildFile; fileRef = D5EFDFAF1891357C001D3F4A /* Alarm Clock.caf */; };
+		D5EFDFB218913680001D3F4A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EFDFB118913680001D3F4A /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		D5EFDFA11891343A001D3F4A /* PowerAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerAlarmTests-Info.plist"; sourceTree = "<group>"; };
 		D5EFDFA31891343A001D3F4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5EFDFA51891343A001D3F4A /* PowerAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerAlarmTests.m; sourceTree = "<group>"; };
+		D5EFDFAF1891357C001D3F4A /* Alarm Clock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alarm Clock.caf"; sourceTree = "<group>"; };
+		D5EFDFB118913680001D3F4A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5EFDFB218913680001D3F4A /* IOKit.framework in Frameworks */,
 				D5EFDF7C1891343A001D3F4A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +100,7 @@
 		D5EFDF7A1891343A001D3F4A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5EFDFB118913680001D3F4A /* IOKit.framework */,
 				D5EFDF7B1891343A001D3F4A /* Cocoa.framework */,
 				D5EFDF9A1891343A001D3F4A /* XCTest.framework */,
 				D5EFDF7D1891343A001D3F4A /* Other Frameworks */,
@@ -118,6 +124,7 @@
 				D5EFDF8D1891343A001D3F4A /* SSAppDelegate.h */,
 				D5EFDF8E1891343A001D3F4A /* SSAppDelegate.m */,
 				D5EFDF901891343A001D3F4A /* MainMenu.xib */,
+				D5EFDFAF1891357C001D3F4A /* Alarm Clock.caf */,
 				D5EFDF931891343A001D3F4A /* Images.xcassets */,
 				D5EFDF821891343A001D3F4A /* Supporting Files */,
 			);
@@ -235,6 +242,7 @@
 				D5EFDF941891343A001D3F4A /* Images.xcassets in Resources */,
 				D5EFDF8C1891343A001D3F4A /* Credits.rtf in Resources */,
 				D5EFDF921891343A001D3F4A /* MainMenu.xib in Resources */,
+				D5EFDFB01891357C001D3F4A /* Alarm Clock.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PowerAlarm/PowerAlarm-Prefix.pch";
@@ -397,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PowerAlarm/PowerAlarm-Prefix.pch";
