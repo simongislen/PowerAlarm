@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5EFDF7C1891343A001D3F4A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EFDF7B1891343A001D3F4A /* Cocoa.framework */; };
+		D5EFDF861891343A001D3F4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5EFDF841891343A001D3F4A /* InfoPlist.strings */; };
+		D5EFDF881891343A001D3F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EFDF871891343A001D3F4A /* main.m */; };
+		D5EFDF8C1891343A001D3F4A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D5EFDF8A1891343A001D3F4A /* Credits.rtf */; };
+		D5EFDF8F1891343A001D3F4A /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EFDF8E1891343A001D3F4A /* SSAppDelegate.m */; };
+		D5EFDF921891343A001D3F4A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5EFDF901891343A001D3F4A /* MainMenu.xib */; };
+		D5EFDF941891343A001D3F4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EFDF931891343A001D3F4A /* Images.xcassets */; };
+		D5EFDF9B1891343A001D3F4A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EFDF9A1891343A001D3F4A /* XCTest.framework */; };
+		D5EFDF9C1891343A001D3F4A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5EFDF7B1891343A001D3F4A /* Cocoa.framework */; };
+		D5EFDFA41891343A001D3F4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5EFDFA21891343A001D3F4A /* InfoPlist.strings */; };
+		D5EFDFA61891343A001D3F4A /* PowerAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EFDFA51891343A001D3F4A /* PowerAlarmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5EFDF9D1891343A001D3F4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5EFDF701891343A001D3F4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5EFDF771891343A001D3F4A;
+			remoteInfo = PowerAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5EFDF781891343A001D3F4A /* PowerAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EFDF7B1891343A001D3F4A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D5EFDF7E1891343A001D3F4A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D5EFDF7F1891343A001D3F4A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D5EFDF801891343A001D3F4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D5EFDF831891343A001D3F4A /* PowerAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerAlarm-Info.plist"; sourceTree = "<group>"; };
+		D5EFDF851891343A001D3F4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5EFDF871891343A001D3F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5EFDF891891343A001D3F4A /* PowerAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PowerAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		D5EFDF8B1891343A001D3F4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D5EFDF8D1891343A001D3F4A /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		D5EFDF8E1891343A001D3F4A /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		D5EFDF911891343A001D3F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D5EFDF931891343A001D3F4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5EFDF991891343A001D3F4A /* PowerAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5EFDF9A1891343A001D3F4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D5EFDFA11891343A001D3F4A /* PowerAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerAlarmTests-Info.plist"; sourceTree = "<group>"; };
+		D5EFDFA31891343A001D3F4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5EFDFA51891343A001D3F4A /* PowerAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerAlarmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5EFDF751891343A001D3F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EFDF7C1891343A001D3F4A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EFDF961891343A001D3F4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EFDF9C1891343A001D3F4A /* Cocoa.framework in Frameworks */,
+				D5EFDF9B1891343A001D3F4A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5EFDF6F1891343A001D3F4A = {
+			isa = PBXGroup;
+			children = (
+				D5EFDF811891343A001D3F4A /* PowerAlarm */,
+				D5EFDF9F1891343A001D3F4A /* PowerAlarmTests */,
+				D5EFDF7A1891343A001D3F4A /* Frameworks */,
+				D5EFDF791891343A001D3F4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5EFDF791891343A001D3F4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFDF781891343A001D3F4A /* PowerAlarm.app */,
+				D5EFDF991891343A001D3F4A /* PowerAlarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5EFDF7A1891343A001D3F4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFDF7B1891343A001D3F4A /* Cocoa.framework */,
+				D5EFDF9A1891343A001D3F4A /* XCTest.framework */,
+				D5EFDF7D1891343A001D3F4A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EFDF7D1891343A001D3F4A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFDF7E1891343A001D3F4A /* AppKit.framework */,
+				D5EFDF7F1891343A001D3F4A /* CoreData.framework */,
+				D5EFDF801891343A001D3F4A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D5EFDF811891343A001D3F4A /* PowerAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFDF8D1891343A001D3F4A /* SSAppDelegate.h */,
+				D5EFDF8E1891343A001D3F4A /* SSAppDelegate.m */,
+				D5EFDF901891343A001D3F4A /* MainMenu.xib */,
+				D5EFDF931891343A001D3F4A /* Images.xcassets */,
+				D5EFDF821891343A001D3F4A /* Supporting Files */,
+			);
+			path = PowerAlarm;
+			sourceTree = "<group>";
+		};
+		D5EFDF821891343A001D3F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFDF831891343A001D3F4A /* PowerAlarm-Info.plist */,
+				D5EFDF841891343A001D3F4A /* InfoPlist.strings */,
+				D5EFDF871891343A001D3F4A /* main.m */,
+				D5EFDF891891343A001D3F4A /* PowerAlarm-Prefix.pch */,
+				D5EFDF8A1891343A001D3F4A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5EFDF9F1891343A001D3F4A /* PowerAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFDFA51891343A001D3F4A /* PowerAlarmTests.m */,
+				D5EFDFA01891343A001D3F4A /* Supporting Files */,
+			);
+			path = PowerAlarmTests;
+			sourceTree = "<group>";
+		};
+		D5EFDFA01891343A001D3F4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5EFDFA11891343A001D3F4A /* PowerAlarmTests-Info.plist */,
+				D5EFDFA21891343A001D3F4A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5EFDF771891343A001D3F4A /* PowerAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EFDFA91891343A001D3F4A /* Build configuration list for PBXNativeTarget "PowerAlarm" */;
+			buildPhases = (
+				D5EFDF741891343A001D3F4A /* Sources */,
+				D5EFDF751891343A001D3F4A /* Frameworks */,
+				D5EFDF761891343A001D3F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerAlarm;
+			productName = PowerAlarm;
+			productReference = D5EFDF781891343A001D3F4A /* PowerAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5EFDF981891343A001D3F4A /* PowerAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5EFDFAC1891343A001D3F4A /* Build configuration list for PBXNativeTarget "PowerAlarmTests" */;
+			buildPhases = (
+				D5EFDF951891343A001D3F4A /* Sources */,
+				D5EFDF961891343A001D3F4A /* Frameworks */,
+				D5EFDF971891343A001D3F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5EFDF9E1891343A001D3F4A /* PBXTargetDependency */,
+			);
+			name = PowerAlarmTests;
+			productName = PowerAlarmTests;
+			productReference = D5EFDF991891343A001D3F4A /* PowerAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5EFDF701891343A001D3F4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Simon Gislen";
+				TargetAttributes = {
+					D5EFDF981891343A001D3F4A = {
+						TestTargetID = D5EFDF771891343A001D3F4A;
+					};
+				};
+			};
+			buildConfigurationList = D5EFDF731891343A001D3F4A /* Build configuration list for PBXProject "PowerAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5EFDF6F1891343A001D3F4A;
+			productRefGroup = D5EFDF791891343A001D3F4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5EFDF771891343A001D3F4A /* PowerAlarm */,
+				D5EFDF981891343A001D3F4A /* PowerAlarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5EFDF761891343A001D3F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EFDF861891343A001D3F4A /* InfoPlist.strings in Resources */,
+				D5EFDF941891343A001D3F4A /* Images.xcassets in Resources */,
+				D5EFDF8C1891343A001D3F4A /* Credits.rtf in Resources */,
+				D5EFDF921891343A001D3F4A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EFDF971891343A001D3F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EFDFA41891343A001D3F4A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5EFDF741891343A001D3F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EFDF8F1891343A001D3F4A /* SSAppDelegate.m in Sources */,
+				D5EFDF881891343A001D3F4A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5EFDF951891343A001D3F4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EFDFA61891343A001D3F4A /* PowerAlarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5EFDF9E1891343A001D3F4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5EFDF771891343A001D3F4A /* PowerAlarm */;
+			targetProxy = D5EFDF9D1891343A001D3F4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5EFDF841891343A001D3F4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EFDF851891343A001D3F4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5EFDF8A1891343A001D3F4A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EFDF8B1891343A001D3F4A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D5EFDF901891343A001D3F4A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EFDF911891343A001D3F4A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D5EFDFA21891343A001D3F4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5EFDFA31891343A001D3F4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5EFDFA71891343A001D3F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D5EFDFA81891343A001D3F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D5EFDFAA1891343A001D3F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerAlarm/PowerAlarm-Prefix.pch";
+				INFOPLIST_FILE = "PowerAlarm/PowerAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D5EFDFAB1891343A001D3F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerAlarm/PowerAlarm-Prefix.pch";
+				INFOPLIST_FILE = "PowerAlarm/PowerAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D5EFDFAD1891343A001D3F4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PowerAlarm.app/Contents/MacOS/PowerAlarm";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerAlarm/PowerAlarm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PowerAlarmTests/PowerAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D5EFDFAE1891343A001D3F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PowerAlarm.app/Contents/MacOS/PowerAlarm";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerAlarm/PowerAlarm-Prefix.pch";
+				INFOPLIST_FILE = "PowerAlarmTests/PowerAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5EFDF731891343A001D3F4A /* Build configuration list for PBXProject "PowerAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EFDFA71891343A001D3F4A /* Debug */,
+				D5EFDFA81891343A001D3F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5EFDFA91891343A001D3F4A /* Build configuration list for PBXNativeTarget "PowerAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EFDFAA1891343A001D3F4A /* Debug */,
+				D5EFDFAB1891343A001D3F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5EFDFAC1891343A001D3F4A /* Build configuration list for PBXNativeTarget "PowerAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5EFDFAD1891343A001D3F4A /* Debug */,
+				D5EFDFAE1891343A001D3F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5EFDF701891343A001D3F4A /* Project object */;
+}
